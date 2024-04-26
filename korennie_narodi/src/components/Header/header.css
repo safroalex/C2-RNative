@@ -1,0 +1,203 @@
+header {
+    height: 115.75px;
+    background-color: rgb(225, 223, 218);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 330px;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 66px;
+    margin-top: 8px;
+    column-gap: 7px;
+}
+
+.logo-container img {
+    width: 103px;
+}
+
+.links-outer {
+    margin-right: 67px;
+}
+
+.ru {
+    margin-left: 1.8em;
+    display: flex;
+    justify-content: flex-end; /* Изменено с end на flex-end */
+    align-items: flex-start; /* Изменено с start на flex-start */
+    width: 50px;
+}
+
+.links-outer a {
+    display: flex;
+    justify-content: flex-end; /* Изменено с end на flex-end */
+    align-items: flex-start; /* Изменено с start на flex-start */
+    color: black;
+    font-size: 20px; /* Добавлены единицы измерения */
+    font-weight: 400;
+}
+
+.row-eng {
+    display: flex;
+    justify-content: flex-end; /* Изменено с end на flex-end */
+    align-items: flex-start; /* Изменено с start на flex-start */
+    margin-bottom: 16px;
+}
+
+.header-nav ul {
+    display: flex;
+    column-gap: 20px;
+}
+
+.header-nav ul li {
+    text-align: center;
+}
+
+.row-eng a {
+    line-height: auto;
+    font-size: 12px; /* Уже верно указано */
+}
+
+.row-eng button {
+    font-size: 12px;
+}
+
+a, span, .row-eng a {
+    font-family: 'Roboto';
+    line-height: auto;
+    font-weight: 400;
+}
+
+a {
+    font-size: 20px;
+    color: black;
+}
+
+.ru {
+    font-weight: 500;
+    font-size: 16px; /* Добавлены единицы измерения */
+    color: rgb(68, 88, 82);
+    word-wrap: break-word;
+}
+
+.burger {
+    display: none;
+}
+
+.sliding-menu {
+    display: none;
+}
+
+
+
+
+
+
+
+/*                                                                 Burger Menu (480px) and Adaptive layout                                                               */
+
+
+@media (max-width: 480px) {
+
+    .burger {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+        margin-right: 35px;
+        cursor: pointer;
+    }
+
+    .burger span {
+        height: 1.3px;
+        width: 27px;
+        background-color: black;
+    }
+
+    .burger::before , .burger::after {
+        content: '';
+        position: absolute;
+        height: 1.3px;
+        width: 27px;
+        background-color: black;
+    }
+
+    .burger::before { top: 5px; height: 1px }
+
+    .burger::after { bottom: 5px }
+
+
+    .cl-btn-2 {
+        margin-top: 5px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        animation: CloseAnimation 0.3s;
+    }
+    .cl-btn-2 div {
+        cursor: pointer;
+        position: relative;  
+        height: 30px;
+        width: 30px;
+    }
+    .cl-btn-2 .leftright {
+        height: 2px;
+        width: 30px;
+        position: absolute;
+        margin-top: 24px;
+        background-color: black;
+        border-radius: 2px;
+        transform: rotate(45deg);
+        transition: all .3s ease-in;
+    }
+    .cl-btn-2 .rightleft {
+        height: 2px;
+        width: 30px;
+        position: absolute;
+        margin-top: 24px;
+        background-color: black;
+        border-radius: 2px;
+        transform: rotate(-45deg);
+        transition: all .3s ease-in;
+    }
+    .cl-btn-2 .close-btn {
+        margin: 54px 0 0 -5px;
+        position: absolute;
+        color: black;
+        font-family: Tahoma, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all .3s ease-in;
+        opacity: 0; 
+    }
+
+    .mobile-nav img {
+        width: 25px;
+        margin-left: 20px;
+    }
+
+    .mobile-btn-header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+    }
+
+    .mobile-btn-header div {
+        margin-left: 20px;
+        width: 90px;
+        font-size: 18px;
+    }
+
+}

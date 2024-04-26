@@ -1,0 +1,107 @@
+.footer-box {
+    /* height: 393px; */
+    height: 362.88px;
+    display: flex;
+    background-color: rgb(225,223,218);
+    position: relative;
+    z-index: -10;
+    bottom: 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    column-gap: 20px;
+    /* border: red solid; */
+}
+
+.narodi-i-priroda, .narodi-i-interview {
+    position: relative;
+    z-index: -1;
+    width: 413px;
+    height: 267px;
+    padding-bottom: 20px;
+    /* border: blue solid; */
+}
+
+
+.text-box-footer {
+    display: inline;
+    position: absolute;
+    top: 52px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    line-height: 116.7%;
+}
+
+.text-box-footer a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-box-footer p {
+    margin-bottom: 7px;
+    line-height: 2em;
+    color: white;
+}
+
+.footer-text {
+    display: inline-block;
+    width: 540px;
+    letter-spacing: 0.1em;
+}
+
+.footer-img {
+    display: flex;
+    column-gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    /* border: yellow solid; */
+}
+
+.footer-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 116.7%;
+    letter-spacing: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: white solid; */
+}
+
+.footer-text p {
+    font-size: 14px;
+}
+
+.keeper {
+    width: 496px;
+    /* height: 337px; */
+    height: 281px;
+    word-wrap: break-word;
+    padding-left: 20px;
+    padding-top: 22px;
+    /* border: black solid; */
+}
+
+.keeper :first-child , .keeper :nth-child(2), .review , .keeper :last-child {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 116.7%;
+    letter-spacing: 15%;
+}
+
+.keeper :nth-child(2), .review, .keeper :last-child {
+    font-size: 12px;
+    margin-bottom: 42px;
+}
+
+.keeper :first-child {
+    margin-bottom: 42px;
+}

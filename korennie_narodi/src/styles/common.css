@@ -1,0 +1,383 @@
+body {
+    font-family: 'Roboto',  'Barlow', sans-serif;
+    letter-spacing: 0.1em;
+    background-color: rgb(247, 244, 238);
+    /* overflow-x: hidden; */
+    
+    /* работает в связке с min-width у .App */
+    width: 100vw;
+}
+
+header, main {
+    display: block;
+}
+
+
+.App {
+    /* margin: 0 auto; */
+    position: relative;
+    z-index: 1;
+    min-width: fit-content;
+}
+
+
+li :hover , a:hover, .row-eng div:hover , .text-box-footer div:hover {
+    text-decoration: underline !important;
+}
+
+
+.logo-container img :hover, .row-eng div:hover , .text-box-footer div:hover{
+    cursor: pointer !important;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+/* @media (max-width: 1440px) {
+
+    .footer-img {
+        column-gap: 30px;
+    }
+
+    .App {
+        min-width: auto;
+    }
+
+    .landscape0 img {
+        max-width: 98.8vw;
+    }
+
+} */
+
+
+
+
+@media (max-width: 480px) {
+
+    .App {
+        overflow-x: hidden;
+    }
+
+
+/*                                                                     Header                                                          */
+
+
+    header {
+        height: 50px;
+    }
+
+    .logo-container img {
+        width: 43.75px;
+    }
+
+    .logo-container {
+        margin-top: 3.5px;
+        margin-left: 20px;
+    }
+    
+
+    /* очень важная настройка ниже не трогать */
+
+    .container {
+        column-gap: 227px;
+        display: flex;
+        align-items: baseline;
+        
+    }
+
+    .ru {
+        font-size: 8px;
+        letter-spacing: 0.1em;
+        font-weight: 500;
+        margin-left: -0.1em;
+    }
+
+    .links-outer {
+        display: none;
+    }
+
+
+    .sliding-menu {
+        position: fixed;
+        width: 320px;
+        right: 0px;
+        height: 200%;
+        /* background-color: wheat; */
+        background-color: rgb(225, 223, 218);
+        z-index: 1;
+        animation: MenuAnimation 0.45s;
+    }
+
+    .mobile-nav {
+        margin-top: 50px;
+        /* margin-left: 20px; */
+    }
+
+    .sliding-menu ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .sliding-menu ul li {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .sliding-menu a{
+        text-decoration: none;
+        font-weight: 500;
+        /* color: rgb(6, 20, 14); */
+        color: rgb(6, 20, 14);
+        margin-left: 15px;
+    }
+
+
+
+    @keyframes MenuAnimation {
+        from {width: 0px;}
+        to { width: 320px;}
+    }
+
+    @keyframes CloseAnimation {
+        from {width: 320px;}
+        to { width: 0px;}
+    }
+
+    .close-menu {
+        animation: CloseAnimation 0.45s;
+    }
+
+    .sliding-menu div {
+        z-index: 2;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .links-outer a {
+        font-size: 20px;
+        justify-content: start;
+    }
+
+    nav {
+        position: fixed;
+        top: 0; bottom: 0; left: 0; right: 0;
+        animation: burgerAnimation 0.4s;
+        z-index: 50;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(247, 244, 238);
+        padding: 50px 40px;
+        border: red solid;
+
+    }
+
+    nav ul {
+        flex-direction: column;
+        row-gap: 30px;
+        width: 200px;
+    }
+
+    nav ul li {
+       
+    }
+
+    @keyframes burgerAnimation {
+        from { opacity: 0}
+        to { opacity: 1}
+    } */
+
+
+    
+
+
+
+
+/*                                                                     Main                                                          */
+
+
+    main {
+        min-width: 390px;
+    }
+
+    .landscape0 img {
+        min-width: 390px;
+    }
+
+
+
+/*                                                                     Footer                                                          */
+
+
+
+    .footer-box {
+        /* height: 393px; */
+        padding-top: 16px;
+        height: auto;
+        display: flex;
+        background-color: rgb(225,223,218);
+        position: relative;
+        z-index: -10;
+        bottom: 0;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        column-gap: 20px;
+        /* border: red solid; */
+    }
+    
+    .narodi-i-priroda, .narodi-i-interview {
+        position: relative;
+        z-index: -1;
+        width: auto;
+        height: auto;
+        padding-bottom: 0%;
+        /* border: blue solid; */
+    }
+
+    .narodi-i-priroda {
+        margin-bottom: 45px;
+    }
+    
+    
+    .text-box-footer {
+        display: inline;
+        position: absolute;
+        top: 52px;
+        left: 20px;
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        line-height: 116.7%;
+    }
+    
+    .text-box-footer a {
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    
+    .text-box-footer p {
+        margin-bottom: 7px;
+        line-height: 1.2em;
+        color: white;
+        width: 97px;
+        margin-bottom: 15px;
+    }
+    
+    .footer-text {
+        display: inline-block;
+        width: 540px;
+    }
+    
+    .footer-img {
+        display: block;
+        /* border: yellow solid; */
+        margin-right: 0%;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .footer-img img {
+        width: 296px;
+        height: 185.97px;
+    }
+    
+    .footer-text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 116.7%;
+        letter-spacing: 15%;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        /* border: blueviolet solid; */
+    }
+    
+    .footer-text p {
+        font-size: 14px;
+    }
+    
+    .keeper {
+        width: 296px;
+        height: auto;
+        word-wrap: break-word;
+        padding-left: 0%;
+        padding-top: 12px;
+        /* border: black solid; */
+        margin-bottom: 18px;
+    }
+    
+    .keeper :first-child , .keeper :nth-child(2), .review , .keeper :last-child {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 116.7%;
+        letter-spacing: 15%;
+        margin: 0% auto;
+    }
+
+    .review {
+        margin-top: 10px;
+        font-size: 8px;
+    }
+    
+    .keeper :nth-child(2), .review, .keeper :last-child {
+        font-size: 10px;
+        margin-bottom: 0%;
+        /* border: green solid 2px; */
+    }
+
+    .keeper :nth-child(2) {
+        margin-top: 10px;
+        font-size: 6px;
+    }
+    
+    .keeper :nth-child(4) {
+        margin-top: 24px;
+        font-size: 6px;
+    }
+
+
+/*для того, чтобы упростить себе жизнь с текстом на главной странице */
+
+    .box-hide {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+

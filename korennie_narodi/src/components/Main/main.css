@@ -1,0 +1,32 @@
+main {
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+    /* display: flex !important;
+    justify-content: center; */
+    /* max-width: 100%; */
+}
+
+.landscape0 {
+    width: fit-content;
+    margin: 0 auto;
+    /* max-width: fit-content; */
+}
+
+.landscape0 img {
+    max-width: 100%;
+    object-fit: cover;
+    width: auto;
+}
+
+
+/* @media (max-width: 768px) {
+    main {
+        width: 768px;
+    }
+    
+    .landscape0 img {
+        width: 100vw;
+    }
+} */
+
+

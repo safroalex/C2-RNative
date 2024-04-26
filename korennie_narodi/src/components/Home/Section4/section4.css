@@ -1,0 +1,138 @@
+
+/*                                                Цитата 2                                                  */
+
+.content4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotation {
+    width: 752px;
+    height: 240px;
+    position: relative;
+    /* border: green solid; */
+}
+
+.decoration1 , .decoration2 {
+    height: 120px;
+    position: relative;
+}
+
+.decoration1 img {
+    position: absolute;
+    left: 2px;
+    top: 17px;
+}
+
+.decoration2 img {
+    position: absolute;
+    right: 2px;
+    bottom: 17px;
+}
+
+.line-box {
+    width: 100%;
+}
+
+.line-box img {
+    height: 1.2px;
+    width: inherit;
+}
+
+.decoration1 .line-box {
+    position: absolute;
+    top: -20px;
+}
+
+.decoration2 .line-box {
+    position: absolute;
+    bottom: -20px;
+}
+
+.text-box4 {
+    /* display: inline; */
+    position: absolute;
+    top: 87px;
+    left: 27px;
+    width: 719px;
+    height: 173px;
+    /* border: blue solid; */
+}
+
+.text-box4:nth-child(1) p, .text-box4:nth-child(2) p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5%;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 116.7%;
+}
+
+.text-box-inner {
+    display: inline-flex;
+    justify-content: center;
+    /* border: solid blueviolet; */
+    max-height: 30px;
+}
+
+.text-box-outer2 {
+    display: inline-flex;
+    justify-content: center;
+    width: 719px;
+    /* border: solid red; */
+    max-height: 30px;
+    margin-left: 10px;
+}
+
+.author2 {
+    margin-top: 19px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5%;
+    line-height: 116.7%;
+}
+
+.content4 .text-box-outer-mobile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {  
+
+.content4 .text-box4 .text-box-outer2 , .content4 .text-box4 .text-box-outer {
+    display: none;
+}
+
+.content4 .text-box4 .text-box-outer-mobile {
+    display: block;
+}
+
+.content4 .text-box4 .text-box-outer-mobile-1 , .content4 .text-box4 .text-box-outer-mobile-2 {
+    display: block;
+    letter-spacing: 0.1em;
+    /* position: absolute; */
+    width: 228px;
+    text-align: center;
+    /* border: red solid; */
+    margin-left: 14px;
+}
+
+.content4 .text-box4 .text-box-outer-mobile-1 {
+    margin-top: -40px;
+}
+
+.content4 .text-box-outer-mobile-2 p {
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+}
