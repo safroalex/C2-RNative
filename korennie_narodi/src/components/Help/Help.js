@@ -10,6 +10,7 @@ import forest from "../../images/Rectangle 4934.png"
 import dalnVostok from "../../images/daln-vostok.png"
 import mamont from "../../images/eff-mamonta.png"
 import arctika from "../../images/dobrov-arktiki.png"
+import vector from "../../images/Vector 452.png"
 
 
 function Help() {
@@ -48,21 +49,23 @@ function Help() {
                     </div>
                 </div>
                 <div className="help-sec3">
-                    <div className="help-box-2">
+                    <img src={vector} alt="" className="vector"/>
+                    <div className="help-box-2 box-padding-1">
                         <img src={dalnVostok} alt="" className="image-help-2"/>
-                        <p className='text-help text-width'>История коренных народов Дальнего Востока
+                        <p className='text-help text-size-1'>История коренных народов Дальнего Востока
                             <br/><br/>Группа посвящена истории, религия, быту, культуре коренных народов Дальнего Востока.</p>
                     </div>
-                    <div className="help-box-2">
+                    <div className="help-box-2 reverse-elements">
                         <img src={mamont} alt="" className="image-help-2"/>
-                        <p className='text-help text-width'>Фонд сохранения и поддержки природного и культурного наследия «Эффект Мамонта»
+                        <p className='text-help text-size-2'>Фонд сохранения и поддержки природного и культурного наследия «Эффект Мамонта»
                             <br/><br/>Фонд объединяет ученых, исследователей, путешественников и представителей творческой сферы для того, чтобы трудиться над сохранением уникального наследия нашей планеты.</p>
                     </div>
-                    <div className="help-box-2">
+                    <div className="help-box-2 box-padding-1">
                         <img src={arctika} alt="" className="image-help-2"/>
-                        <p className='text-help text-width'>Фонд сохранения и поддержки природного и культурного наследия «Эффект Мамонта»
-                            <br/><br/>Фонд объединяет ученых, исследователей, путешественников и представителей творческой сферы для того, чтобы трудиться над сохранением уникального наследия нашей планеты.</p>
+                        <p className='text-help text-size-3'>Волонтерский проект "Добровольцы Арктики"
+                            <br/><br/>Проект направлен на оказание помощи в документальном сопровождения жителей ЯНАО из числа КМНС (коренных малочисленных народов севера) в рамках социальных программ предусмотренных Законодательством ЯНАО для данной категории граждан.</p>
                     </div>
+
                 </div>
             </div>
             <Footer/>
