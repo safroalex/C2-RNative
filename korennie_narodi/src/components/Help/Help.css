@@ -1,8 +1,7 @@
 .help-sec1 {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
-    padding-top: 40px;
+    margin-top: 100px;
 }
 
 .help-box {
@@ -11,7 +10,6 @@
     color: black;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 50px;
     align-items: center;
     border: 2px solid black;
     height: auto;
@@ -26,16 +24,16 @@
 }
 
 .image-help {
-    width: 410px;
-    height: 243px;
+    margin: 76px 47px 75px 37px;
+    width: 547px;
+    height: 325px;
 }
 
 .text-help {
-    margin-top: 10px;
-    margin-bottom: 40px;
-    font-size: 25px;
-    width: 410px;
-    height: 285px;
+    margin-bottom: 49px;
+    font-size: 32px;
+    width: 547px;
+    height: 380px;
 }
 
 .line-div img {
@@ -48,8 +46,7 @@
     max-width: 800px;
     margin: 69px auto auto 25px;
     line-height: 116.7%;
-    letter-spacing: 15%;
-    font-size: 44px;
+    font-size: 48px;
     text-transform: uppercase;
     font-weight: 500;
     display: -webkit-box;
@@ -58,31 +55,32 @@
 }
 
 .help-sec2 {
-    margin-top: 80pt;
+    margin-top: 152px;
     display: flex;
     justify-content: flex-end;
     background-color: #BCCAC4;
 }
 
 .image-forest {
-    width: 1000pt;
-    height: 640pt;
+    width: 1678px;
+    height: 1193px;
 }
 
 .text-forum {
     position: absolute;
-    padding-top: 540px;
-    padding-bottom: 20px;
-    font-size: 26px;
-    left: 20px;
-    width: 740px;
+    padding-top: 764px;
+    padding-bottom: 89px;
+    font-size: 32px;
+    left: 56px;
+    width: 926px;
+    height: 340px;
 }
 
 .help-sec3 {
     display: flex;
     flex-direction: column;
-    margin-top: 100pt;
-    margin-bottom: 100pt;
+    margin-top: 110px;
+    margin-bottom: 275px;
 }
 
 .help-box-2 {
@@ -91,49 +89,265 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    gap: 57px;
-    padding-left: 67px;
-    padding-right: 33px;
+    gap: 76px;
+    padding-left: 91px;
+    padding-right: 44px;
 
 }
 
-.box-padding-1 {
-    padding-top: 82px;
+.box-padding {
+    padding-top: 109px;
 }
 
 .reverse-elements {
     flex-direction: row-reverse;
-    padding-top: 88px;
+    padding-top: 150px;
 }
 
 .text-size-1 {
-    width: 560px;
-    height: 168px;
-    font-size: 24px;
+    width: 747px;
+    height: 224px;
+    font-size: 32px;
 }
 
 .text-size-2 {
-    width: 595px;
-    height: 261px;
-    font-size: 24px;
+    width: 694px;
+    height: 336px;
+    font-size: 32px;
     padding-top: 10px;
 }
 
 .text-size-3 {
-    width: 568px;
-    height: 290px;
-    font-size: 24px;
+    width: 757px;
+    height: 373px;
+    font-size: 32px;
     padding-top: 10px;
 }
 
 .image-help-2 {
-    width: 465px;
-    height: 300px;
+    width: 620px;
+    height: 399px;
 }
 
 .vector {
-    width: 1181px;
-    height: 1272px;
+    width: 1575px;
+    height: 1696px;
     position: absolute;
     right: 0;
+}
+
+@media (max-width: 1440px) {
+    .help-sec1 {
+        margin-top: 96px;
+    }
+
+    .image-help {
+        margin: 62px 30px 51px 33px;
+        width: 410px;
+        height: 243px;
+    }
+
+    .text-help {
+        margin-bottom: 37px;
+        font-size: 24px;
+        width: 410px;
+        height: 285px;
+    }
+
+    .help-sec2 {
+        margin-top: 122px;
+    }
+
+    .image-forest {
+        width: 1257px;
+        height: 894px;
+    }
+
+    .text-forum {
+        padding-top: 572px;
+        font-size: 24px;
+        padding-left: 30px;
+        width: 694px;
+        height: 255px;
+    }
+
+    .help-sec3 {
+        margin-top: 110px;
+        margin-bottom: 275px;
+    }
+
+    .help-box-2 {
+        gap: 57px;
+        padding-left: 67px;
+        padding-right: 33px;
+
+    }
+
+    .box-padding {
+        padding-top: 82px;
+    }
+
+    .reverse-elements {
+        padding-top: 110px;
+    }
+
+    .text-size-1 {
+        width: 560px;
+        height: 168px;
+        font-size: 24px;
+    }
+
+    .text-size-2 {
+        width: 595px;
+        height: 261px;
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .text-size-3 {
+        width: 568px;
+        height: 290px;
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .image-help-2 {
+        width: 465px;
+        height: 299px;
+    }
+
+    .vector {
+        width: 1181px;
+        height: 1272px;
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .help {
+        width: 480px;
+    }
+
+    .title-help {
+        font-size: 28px;
+        width: 337px;
+        height: 66px;
+        margin-top: 61px;
+        left: 26px;
+        padding-bottom: 26px;
+    }
+
+    .help-sec1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 32px;
+        width: 337px;
+    }
+
+    .help-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        height: auto;
+    }
+
+    .border-none {
+        border-left: 2px solid black;
+    }
+
+    .border-top-none {
+        border-top: none;
+    }
+
+    .border-right-none {
+        border-top: none;
+        border-right: 2px solid black;
+    }
+
+    .image-help {
+        margin: 30px 21px 26px 20px;
+        width: 295px;
+        height: 184px;
+    }
+
+    .text-help {
+        margin-bottom: 49px;
+        font-size: 10px;
+        width: 295px;
+        height: 72px;
+    }
+
+    .help-sec2 {
+        margin-top: 45px;
+    }
+
+    .image-forest {
+        width: 390px;
+        height: 394px;
+    }
+
+    .text-forum {
+        padding-top: 233px;
+        padding-bottom: 17px;
+        font-size: 10px;
+        left: 16px;
+        width: 230px;
+        height: 144px;
+    }
+
+    .help-sec3 {
+        margin-top: 45px;
+        margin-bottom: 75px;
+    }
+
+    .help-box-2 {
+        flex: 1;
+        flex-direction: column;
+        gap: 33px;
+        padding-left: 48px;
+        padding-right: 47px;
+
+    }
+
+    .box-padding {
+        padding-top: 33px;
+    }
+
+    .reverse-elements {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .text-size-1 {
+        width: 295px;
+        height: 60px;
+        font-size: 10px;
+    }
+
+    .text-size-2 {
+        width: 295px;
+        height: 84px;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .text-size-3 {
+        width: 295px;
+        height: 96px;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .image-help-2 {
+        width: 295px;
+        height: 184px;
+    }
+
+    .vector {
+        width: 370px;
+        height: 1134px;
+    }
 }

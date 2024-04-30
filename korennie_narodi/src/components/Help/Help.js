@@ -25,13 +25,12 @@ function Help() {
                     <img src={line} alt="" />
                     <img src={line} alt="" />
                 </div>
-
                 <div className='help-sec1'>
                     <div className='help-box border-none'>
                         <img className='image-help' src={lenobl} alt="" />
                         <p className='text-help'> Центр коренных народов Ленинградской области  культурно-просветительский центр, созданный с целью сохранения и развития культуры коренных народов Ленинградской области (ижоры, води, ингерманландских финнов, вепсов и тихвинских карел).</p>
                     </div>
-                    <div className='help-box border-none'>
+                    <div className='help-box border-none border-top-none'>
                         <img className='image-help' src={pribaikal} alt="" />
                         <p className='text-help'>Центр культуры коренных народов Прибайкалья  центр, созданный с целью возрождения, сохранения и развития традиционной культуры коренных народов Прибайкалья, приобщение к ней жителей, туристов и гостей Иркутской области.</p>
                     </div>
@@ -49,8 +48,8 @@ function Help() {
                     </div>
                 </div>
                 <div className="help-sec3">
-                    <img src={vector} alt="" className="vector"/>
-                    <div className="help-box-2 box-padding-1">
+
+                    <div className="help-box-2 box-padding">
                         <img src={dalnVostok} alt="" className="image-help-2"/>
                         <p className='text-help text-size-1'>История коренных народов Дальнего Востока
                             <br/><br/>Группа посвящена истории, религия, быту, культуре коренных народов Дальнего Востока.</p>
@@ -60,12 +59,11 @@ function Help() {
                         <p className='text-help text-size-2'>Фонд сохранения и поддержки природного и культурного наследия «Эффект Мамонта»
                             <br/><br/>Фонд объединяет ученых, исследователей, путешественников и представителей творческой сферы для того, чтобы трудиться над сохранением уникального наследия нашей планеты.</p>
                     </div>
-                    <div className="help-box-2 box-padding-1">
+                    <div className="help-box-2 box-padding">
                         <img src={arctika} alt="" className="image-help-2"/>
                         <p className='text-help text-size-3'>Волонтерский проект "Добровольцы Арктики"
                             <br/><br/>Проект направлен на оказание помощи в документальном сопровождения жителей ЯНАО из числа КМНС (коренных малочисленных народов севера) в рамках социальных программ предусмотренных Законодательством ЯНАО для данной категории граждан.</p>
                     </div>
-
                 </div>
             </div>
             <Footer/>
