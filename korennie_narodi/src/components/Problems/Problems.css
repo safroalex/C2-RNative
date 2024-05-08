@@ -1,8 +1,29 @@
 
+.problems-intro {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.problems-intro img{
+    width: 100%;
+}
+
+.title-header{
+    margin-left: 5%;
+    margin-bottom: 16px;
+}
+
+.title-intro {
+    margin-top: 4%;
+    align-self: center;
+}
+
 .title-problems {
     line-height: 116.7%;
     letter-spacing: 0.1em;
-    font-size: 48px;
+    font-size: 2vw;
     text-transform: uppercase;
     font-weight: 400;
     display: -webkit-box;
@@ -15,9 +36,7 @@
 
 .climate-container, .language-container {
     display: flex;
-    margin-top: 92px;
-    margin-left: 52px;
-    margin-bottom: 112px;
+    margin: 5% 3% 8% 3%;
 }
 
 .box {
@@ -27,111 +46,132 @@
 
 .problems-box-1_1 {
     flex: 1;
-    padding: 48px 36px;
-    margin-right: 152px;
+    padding: 4% 4%;
+    margin-right: 8%;
 }
 
 .problems-box-1_2 {
     flex: 1;
     position: relative;
+    height: fit-content;
 }
 
 .problems-box-2_1 {
-    flex: 1;
     position: relative;
 }
 
 .problems-box-2_2 {
-    padding: 80px 30px 48px 20px;
-    margin-right: 52px;
-    margin-left: 52px;
+    padding: 4% 1% 3% 1%;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 .problems-box-1_1 h2 , .problems-box-2_2 h2{
-    margin-bottom: 36px;
+    margin-bottom: 4%;
 }
 
 .text-problems {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.45vw;
     line-height: 116.67%;
     text-align: justify;
     letter-spacing: 0.1em;
 }
 
-.janschwalde {
-    width: 773px;
-    height: 542px;
-}
-
 .icefall {
     position: absolute;
-    width: 375px;
-    height: 224px;
-    right: 28px;
-    top: 480px;
+    right: 0;
+    top: 88%;
 }
 
 .trash {
     position: absolute;
-    width: 375px;
-    height: 267px;
-    top: 351px;
-    left: -92px;
+    top: 65%;
+    left: -12%;
 }
 
-.dance {
-    width: 777px;
-    height: 539px;
-}
 
 .shamans {
     position: absolute;
-    left: 36px;
-    top: 428px;
+    left: 4%;
+    top: 70%;
 }
 
 /* Вывод */
 .conclusion h2 {
     text-transform: none;
-    margin-bottom: 56px;
+    margin-bottom: 3%;
 }
 
 .conclusion {
     box-sizing: border-box;
     border: 1px solid #000000;
-    padding: 20px 32px;
-    margin: 42px 84px 64px;
+    padding: 2% 2%;
+    margin: 2% 4% 3%;
 }
 
+.sakhalin-container-1 {
+    display: flex;
+    margin-left: 10%;
+}
+
+.problems-box-3_1 {
+    margin-right: 2%;
+    height: fit-content;
+}
+
+.problems-box-3_2 {
+    margin-top: 3%;
+}
+
+.sakhalin-container-2 {
+    display: flex;
+}
+
+.problems-box-3_3 {
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.problems-box-3_4 {
+    position: relative;
+    margin-top: -18%;
+}
+
+.sakhalin-logo {
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
 
 .fpic-container-1 {
     display: flex;
-    margin-top: 72px;
+    margin-top: 2%;
 }
 
 .fpic-container-2 {
     display: flex;
-    margin-top: 36px;
+    margin-top: 2%;
 }
 
 .problems-box-4_2 {
-    margin-left: 56px;
-    margin-right: 64px;
-    margin-top: 20px;
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-top: 1%;
 }
 
 .fpic-cases-mansi h3, .fpic-cases-shorchev h3{
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-bottom: 1%;
+    margin-top: 1%;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 1.45vw;
 }
 
 .problems-box-4_3 {
-    margin-left: 64px;
-    margin-right: 48px;
-    margin-bottom: 80px;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-bottom: 3%;
 }
 
 .problems-box-4_4 {
@@ -140,8 +180,142 @@
     justify-content: center;
 }
 
+@media (max-width: 480px) {
 
 
+    .text-problems {
+        font-size: 10px;
+    }
+
+    .title-problems {
+        font-size: 20px;
+    }
+
+    .title-header {
+        font-size: 28px;
+    }
+
+    .climate-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .problems-box-1_1 , .problems-box-2_2 {
+        margin: 28px;
+        padding: 12px;
+    }
+
+    .problems-box-1_2 {
+        margin-bottom: 96px;
+    }
+
+    .power_germany {
+        width: 270px;
+        height: 180px;
+    }
+
+    .icefall {
+        width: 127px;
+        height: 77px;
+    }
+
+    .trash {
+        width: 130px;
+        height: 94px;
+    }
+
+    .language-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .dance {
+        width: 271px;
+        height: 187px;
+    }
+
+    .shamans {
+        width: 147px;
+        height: 89px;
+    }
+
+    .sakhalin-container-1 {
+        margin-left: 0;
+        flex-direction: column-reverse;
+    }
+
+    .problems-box-3_1 {
+        margin-right: 0;
+    }
+
+    .problems-box-3_2 {
+        margin: 28px;
+    }
+
+    .sealand {
+        width: 100%;
+        height: 398px;
+    }
+
+    .sakhalin-container-2 {
+        flex-direction: column;
+    }
+
+    .sakhalin {
+        width: 100%;
+        height: 493px;
+    }
+
+    .sakhalin-logo {
+        width: 87px;
+        height: 80px;
+    }
+
+
+    .problems-box-3_3 {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    .problems-box-3_4 {
+        margin-top: 0;
+    }
+
+    .fpic-container-1 {
+        flex-direction: column-reverse;
+    }
+
+    .problems-box-4_2 {
+        margin-bottom: 12px;
+    }
+
+    .river {
+        width: 272px;
+        height: 163px;
+    }
+
+    .fpic-cases-description > p:nth-child(2) {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .fpic-cases-mansi h3, .fpic-cases-shorchev h3{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .fpic-container-2 {
+        flex-direction: column;
+    }
+
+    .mountains {
+        width: 270px;
+        height: 163px;
+        align-self: end;
+    }
+
+}
 
 
 
