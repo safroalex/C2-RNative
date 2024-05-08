@@ -1,11 +1,14 @@
+/*from deskop*/
+
 .help-sec1 {
     display: flex;
-    flex-direction: row;
-    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-top: 5.21%;
 }
 
 .help-box {
     flex: 1;
+    flex-wrap: wrap;
     background-color: rgb(247, 244, 238);
     color: black;
     flex-direction: column;
@@ -24,29 +27,41 @@
 }
 
 .image-help {
-    margin: 76px 47px 75px 37px;
-    width: 547px;
-    height: 325px;
+    margin: 11% 2.45% 10% 1.93%;
+    max-width: 75%;
+    height: auto;
 }
 
 .text-help {
-    margin-bottom: 49px;
-    font-size: 32px;
-    width: 547px;
-    height: 380px;
+    margin-bottom: 7%;
+    font-size: 1.67vw;
+    max-width: 75%;
+    height: auto;
+}
+
+.href-text {
+    font-size: 1.67vw;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 .line-div img {
-    width: 100%;
+    max-width: 100%;
+}
+
+.line-bottom {
+    border-bottom: 2px solid black;
+    padding-bottom: 2.03%;
 }
 
 .title-help {
     /* border: black solid; */
     width: 50%;
-    max-width: 800px;
-    margin: 69px auto auto 25px;
+    max-width: 41.67%;
+    margin: 3.59% auto auto 4%;
     line-height: 116.7%;
-    font-size: 48px;
+    font-size: 2.29vw;
     text-transform: uppercase;
     font-weight: 500;
     display: -webkit-box;
@@ -55,203 +70,198 @@
 }
 
 .help-sec2 {
-    margin-top: 152px;
     display: flex;
-    justify-content: flex-end;
-    background-color: #BCCAC4;
-}
-
-.image-forest {
-    width: 1678px;
-    height: 1193px;
+    margin-top: 7.92%;
+    background-origin: content-box;
+    background: #BCCAC4 url("../../images/Rectangle 4934.png") right center no-repeat;
+    background-size: 87.40%;
+    height: 62.14%;
+    border-radius: 1.04%;
 }
 
 .text-forum {
-    position: absolute;
-    padding-top: 764px;
-    padding-bottom: 89px;
-    font-size: 32px;
-    left: 56px;
-    width: 926px;
-    height: 340px;
+    font-size: 1.67vw;
+    margin: 42% 50% 2.08% 2.92%;
+    max-width: 48.23%;
+    height: auto;
 }
 
 .help-sec3 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 110px;
-    margin-bottom: 275px;
+    margin-top: 7.2%;
+    margin-bottom: 7.2%;
+    gap: 7.5%;
 }
 
 .help-box-2 {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 76px;
-    padding-left: 91px;
-    padding-right: 44px;
-
-}
-
-.box-padding {
-    padding-top: 109px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4.5%;
 }
 
 .reverse-elements {
     flex-direction: row-reverse;
-    padding-top: 150px;
+    padding-top: 6%;
 }
 
 .text-size-1 {
-    width: 747px;
-    height: 224px;
-    font-size: 32px;
+    max-width: 36.46%;
+    height: 11.67%;
+    font-size: 1.67vw;
+    border-left: 2px solid black;
+    padding-left: 2.6%;
 }
 
 .text-size-2 {
-    width: 694px;
-    height: 336px;
-    font-size: 32px;
-    padding-top: 10px;
+    max-width: 36.46%;
+    height: 17.5%;
+    font-size: 1.67vw;
+    border-right: 2px solid black;
+    padding-right: 3.31%;
 }
 
 .text-size-3 {
-    width: 757px;
-    height: 373px;
-    font-size: 32px;
-    padding-top: 10px;
+    max-width: 36.46%;
+    height: 10%;
+    font-size: 1.67vw;
+    border-left: 2px solid black;
+    padding-left: 2.6%;
 }
 
 .image-help-2 {
-    width: 620px;
-    height: 399px;
+    max-width: 32.29%;
+    height: auto;
 }
 
-.vector {
-    width: 1575px;
-    height: 1696px;
-    position: absolute;
-    right: 0;
-}
+/*@media (max-width: 1440px) {*/
+/*    .help-sec1 {*/
+/*        margin-top: 96px;*/
+/*    }*/
 
-@media (max-width: 1440px) {
-    .help-sec1 {
-        margin-top: 96px;
-    }
+/*    .image-help {*/
+/*        margin: 62px 30px 51px 33px;*/
+/*        max-width: 410px;*/
+/*        height: auto;*/
+/*    }*/
 
-    .image-help {
-        margin: 62px 30px 51px 33px;
-        width: 410px;
-        height: 243px;
-    }
+/*    .href-text {*/
+/*        font-size: 24px;*/
+/*        text-transform: uppercase;*/
+/*        text-decoration: underline;*/
+/*        font-weight: 500;*/
+/*    }*/
 
-    .text-help {
-        margin-bottom: 37px;
-        font-size: 24px;
-        width: 410px;
-        height: 285px;
-    }
+/*    .text-help {*/
+/*        margin-bottom: 37px;*/
+/*        font-size: 24px;*/
+/*        max-width: 410px;*/
+/*        height: auto;*/
+/*    }*/
 
-    .help-sec2 {
-        margin-top: 122px;
-    }
+/*    .help-sec2 {*/
+/*        display: flex;*/
+/*        margin-top: 122px;*/
+/*        background: #BCCAC4 url("../../images/Rectangle 4932.png") right center no-repeat;*/
+/*    }*/
 
-    .image-forest {
-        width: 1257px;
-        height: 894px;
-    }
+/*    .image-forest {*/
+/*        max-width: 1257px;*/
+/*        height: auto;*/
+/*    }*/
 
-    .text-forum {
-        padding-top: 572px;
-        font-size: 24px;
-        padding-left: 30px;
-        width: 694px;
-        height: 255px;
-    }
+/*    .text-forum {*/
+/*        font-size: 24px;*/
+/*        margin: 572px 716px 42px 30px;*/
+/*        flex-wrap: wrap;*/
+/*        max-width: 694px;*/
+/*        height: auto;*/
+/*    }*/
 
-    .help-sec3 {
-        margin-top: 110px;
-        margin-bottom: 275px;
-    }
+/*    .help-sec3 {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        margin-top: 140px;*/
+/*        margin-bottom: 150px;*/
+/*        gap: 108px;*/
+/*    }*/
 
-    .help-box-2 {
-        gap: 57px;
-        padding-left: 67px;
-        padding-right: 33px;
+/*    .help-box-2 {*/
+/*        display: flex;*/
+/*        gap: 57px;*/
+/*        flex: 1;*/
+/*        flex-wrap: wrap;*/
+/*        flex-direction: row;*/
+/*        align-items: center;*/
+/*        justify-content: center;*/
+/*    }*/
 
-    }
+/*    .reverse-elements {*/
+/*        flex-direction: row-reverse;*/
+/*    }*/
 
-    .box-padding {
-        padding-top: 82px;
-    }
+/*    .box-padding {*/
+/*        padding-top: 82px;*/
+/*    }*/
 
-    .reverse-elements {
-        padding-top: 110px;
-    }
+/*    .text-size-1 {*/
+/*        max-width: 568px;*/
+/*        height: 168px;*/
+/*        font-size: 24px;*/
+/*        border-left: 2px solid black;*/
+/*        padding-left: 50px;*/
+/*    }*/
 
-    .text-size-1 {
-        width: 560px;
-        height: 168px;
-        font-size: 24px;
-    }
+/*    .text-size-2 {*/
+/*        max-width: 520px;*/
+/*        height: 290px;*/
+/*        font-size: 24px;*/
+/*        border-right: 2px solid black;*/
+/*        padding-right: 50px;*/
+/*        margin-left: -40px;*/
+/*    }*/
 
-    .text-size-2 {
-        width: 595px;
-        height: 261px;
-        font-size: 24px;
-        padding-top: 10px;
-    }
+/*    .text-size-3 {*/
+/*        max-width: 568px;*/
+/*        height: 290px;*/
+/*        font-size: 24px;*/
+/*        border-left: 2px solid black;*/
+/*        padding-left: 50px;*/
+/*    }*/
 
-    .text-size-3 {
-        width: 568px;
-        height: 290px;
-        font-size: 24px;
-        padding-top: 10px;
-    }
+/*    .image-help-2 {*/
+/*        max-width: 465px;*/
+/*        height: auto;*/
+/*        margin-top: -30px;*/
+/*    }*/
 
-    .image-help-2 {
-        width: 465px;
-        height: 299px;
-    }
-
-    .vector {
-        width: 1181px;
-        height: 1272px;
-        position: absolute;
-        right: 0;
-    }
-}
+/*}*/
 
 @media (max-width: 480px) {
-    .help {
-        width: 480px;
+    .href-text {
+        font-size: 2.08vw;
+    }
+
+    .line-div img {
+        margin: 0 auto 0 auto;
     }
 
     .title-help {
-        font-size: 28px;
-        width: 337px;
-        height: 66px;
-        margin-top: 61px;
-        left: 26px;
-        padding-bottom: 26px;
+        font-size: 5.83vw;
+        max-width: 80%;
+        width: 70%;
+        height: 13.75%;
+        margin: 12.71% auto 4% 4%;
     }
 
     .help-sec1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 32px;
-        width: 337px;
-    }
-
-    .help-box {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid black;
-        height: auto;
+        margin: 9.38% 6.67%;
+        width: auto;
     }
 
     .border-none {
@@ -269,7 +279,7 @@
 
     .image-help {
         margin: 30px 21px 26px 20px;
-        width: 295px;
+        width: 294px;
         height: 184px;
     }
 
@@ -282,72 +292,53 @@
 
     .help-sec2 {
         margin-top: 45px;
-    }
-
-    .image-forest {
-        width: 390px;
-        height: 394px;
+        background-size: 100%;
+        background: #BCCAC4 url("../../images/Rectangle 4935.png") right center no-repeat;
+        border-radius: 5%;
     }
 
     .text-forum {
-        padding-top: 233px;
-        padding-bottom: 17px;
-        font-size: 10px;
-        left: 16px;
-        width: 230px;
-        height: 144px;
+        font-size: 2.2vw;
+        margin: 52% 34% 4% 5%;
+        max-width: 58%;
     }
 
     .help-sec3 {
-        margin-top: 45px;
-        margin-bottom: 75px;
+        margin-top: 18.75%;
+        margin-bottom: 15.63%;
+        margin-left: 17%;
+        gap: 14%;
     }
 
     .help-box-2 {
         flex: 1;
+        align-items: flex-start;
+        justify-content: flex-start;
         flex-direction: column;
-        gap: 33px;
-        padding-left: 48px;
-        padding-right: 47px;
-
-    }
-
-    .box-padding {
-        padding-top: 33px;
-    }
-
-    .reverse-elements {
-        flex-direction: column;
-        padding-top: 40px;
+        gap: 30px
     }
 
     .text-size-1 {
-        width: 295px;
-        height: 60px;
-        font-size: 10px;
+        max-width: 80%;
+        height: 12.50%;
+        font-size: 2.08vw;
     }
 
     .text-size-2 {
-        width: 295px;
-        height: 84px;
-        font-size: 10px;
-        padding-top: 10px;
+        max-width: 80%;
+        height: 17.50%;
+        font-size: 2.08vw;
+        margin-left: 0;
     }
 
     .text-size-3 {
-        width: 295px;
-        height: 96px;
-        font-size: 10px;
-        padding-top: 10px;
+        max-width: 80%;
+        height: 20%;
+        font-size: 2.08vw;
     }
 
     .image-help-2 {
-        width: 295px;
-        height: 184px;
-    }
-
-    .vector {
-        width: 370px;
-        height: 1134px;
+        max-width: 80%;
+        height: auto;
     }
 }

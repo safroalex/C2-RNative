@@ -1,37 +1,40 @@
 header {
-    height: 115.75px;
+    height: auto;
     background-color: rgb(225, 223, 218);
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    column-gap: 330px;
     align-items: center;
+    height: auto;
+
 }
 
 .logo-container {
     display: flex;
     align-items: center;
-    margin-left: 66px;
-    margin-top: 8px;
-    column-gap: 7px;
+    margin-left: 3.44%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    column-gap: 0.36%;
 }
 
 .logo-container img {
-    width: 103px;
+    width: 7vw;
 }
 
 .links-outer {
-    margin-right: 67px;
+    margin-right: 3.49%;
+    width: 60%;
 }
 
 .ru {
-    margin-left: 1.8em;
+    margin-left: 5vw;
     display: flex;
     justify-content: flex-end; /* Изменено с end на flex-end */
     align-items: flex-start; /* Изменено с start на flex-start */
-    width: 50px;
+    width: 4%;
 }
 
 .links-outer a {
@@ -39,7 +42,8 @@ header {
     justify-content: flex-end; /* Изменено с end на flex-end */
     align-items: flex-start; /* Изменено с start на flex-start */
     color: black;
-    font-size: 20px; /* Добавлены единицы измерения */
+
+    font-size: 1.6vw; /* Добавлены единицы измерения */
     font-weight: 400;
 }
 
@@ -47,12 +51,15 @@ header {
     display: flex;
     justify-content: flex-end; /* Изменено с end на flex-end */
     align-items: flex-start; /* Изменено с start на flex-start */
-    margin-bottom: 16px;
+    margin-bottom: 3.33%;
+
 }
 
 .header-nav ul {
     display: flex;
-    column-gap: 20px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    column-gap: 4%;
 }
 
 .header-nav ul li {
@@ -61,11 +68,11 @@ header {
 
 .row-eng a {
     line-height: auto;
-    font-size: 12px; /* Уже верно указано */
+    font-size: 0.63vw; /* Уже верно указано */
 }
 
 .row-eng button {
-    font-size: 12px;
+    font-size: 0.63vw;
 }
 
 a, span, .row-eng a {
@@ -75,13 +82,13 @@ a, span, .row-eng a {
 }
 
 a {
-    font-size: 20px;
+    font-size: 1.04vw;
     color: black;
 }
 
 .ru {
     font-weight: 500;
-    font-size: 16px; /* Добавлены единицы измерения */
+    font-size: 1.1vw; /* Добавлены единицы измерения */
     color: rgb(68, 88, 82);
     word-wrap: break-word;
 }
@@ -104,10 +111,15 @@ a {
 
 
 @media (max-width: 480px) {
+    a {
+        font-size: 2.7vw;
+        color: black;
+    }
 
     .burger {
         display: flex;
         position: relative;
+        align-self: center;
         align-items: center;
         justify-content: flex-end;
         width: 30px;
@@ -130,9 +142,14 @@ a {
         background-color: black;
     }
 
-    .burger::before { top: 5px; height: 1px }
+    .burger::before {
+        top: 5px;
+        height: 1px
+    }
 
-    .burger::after { bottom: 5px }
+    .burger::after {
+        bottom: 5px
+    }
 
 
     .cl-btn-2 {
@@ -174,7 +191,7 @@ a {
         position: absolute;
         color: black;
         font-family: Tahoma, sans-serif;
-        font-size: 13px;
+        font-size: 3vw;
         font-weight: bold;
         text-transform: uppercase;
         transition: all .3s ease-in;
@@ -197,7 +214,7 @@ a {
     .mobile-btn-header div {
         margin-left: 20px;
         width: 90px;
-        font-size: 18px;
+        font-size: 3.75vw;
     }
 
 }
