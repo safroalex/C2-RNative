@@ -34,6 +34,7 @@
 
 .interview-box-1_2 {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 24px;
     /* border: blue solid; */
     margin-bottom: 170px;
