@@ -14,26 +14,22 @@ import sakhalin from "../../images/sakhalin.png"
 import sealand from "../../images/sealand.png"
 import map_laptop from "../../images/problems-map-laptop.png"
 import Header from "../Header/header";
+import Footer from "../Footer/footer";
 
 function Problems() {
     return (
         <>
+            <Header/>
+            <div className="title-header title-problems">
+                <p>проблемы коренных <br/> народов россии</p>
+            </div>
             <section className="problems-intro">
-                <div className="title-problems title-header">
-                    <p>проблемы коренных <br/> народов россии</p>
-                </div>
-                <div className='line-problems'>
-                    <img src={line} alt=""/>
-                </div>
                 <div className="title-problems title-intro">
                     <p>экономическое неравенство и демографические проблемы</p>
                 </div>
                 <img srcSet={`${map} 1900w, ${map_laptop} 1500w`} alt=""/>
             </section>
             <section className="problems-climate">
-                <div className='line-problems'>
-                    <img src={line} alt=""/>
-                </div>
                 <div className="climate-container">
                     <div className="box problems-box-1_1">
                         <h2 className="title-problems">климатическая и экологическая угроза</h2>
@@ -59,9 +55,6 @@ function Problems() {
                 </div>
             </section>
             <section className="problems-languages">
-                <div className='line-problems'>
-                    <img src={line} alt=""/>
-                </div>
                 <div className="language-container">
                     <div className="problems-box-2_1">
                         <img className="dance" srcSet={`${dance} 1900w`} alt=""></img>
@@ -87,12 +80,9 @@ function Problems() {
                 </div>
             </section>
             <section className="problems-fpic">
-                <div className='line-problems'>
-                    <img src={line} alt=""/>
-                </div>
                 <div className="sakhalin-container-1">
                     <div className="problems-box-3_1">
-                        <img  className="sealand" srcSet={`${sealand} 1920w`} alt=""/>
+                        <img className="sealand" srcSet={`${sealand} 1920w`} alt=""/>
                     </div>
                     <div className="problems-box-3_2">
                         <h2 className="title-problems">ПРИНЦИП СВОБОДНОГО,<br/>
@@ -125,9 +115,6 @@ function Problems() {
                 </div>
             </section>
             <section className="problems-fpic-cases">
-                <div className='line-problems'>
-                    <img src={line} alt=""/>
-                </div>
                 <div className="fpic-container-1">
                     <div className="problems-box-4_1">
                         <img className="river" srcSet={`${river} 1920w`} alt=""/>
@@ -192,9 +179,6 @@ function Problems() {
                 </div>
             </section>
             <section className="problems-conclusion">
-                <div className='line-problems'>
-                    <img src={line} alt=""/>
-                </div>
                 <div className="conclusion">
                     <h2 className="title-problems">Вывод</h2>
                     <p className="text-problems">
@@ -212,6 +196,7 @@ function Problems() {
                     </p>
                 </div>
             </section>
+            <Footer/>
         </>
     );
 }

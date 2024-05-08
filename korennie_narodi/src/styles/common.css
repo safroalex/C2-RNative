@@ -84,7 +84,6 @@ a:hover {
     /* очень важная настройка ниже не трогать */
 
     .container {
-        column-gap: 227px;
         display: flex;
         align-items: baseline;
         

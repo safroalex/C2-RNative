@@ -1,9 +1,13 @@
 
 .problems-intro {
-    margin-top: 8%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+section:nth-child(n+3) {
+    border-top: 1px solid #000000;
 }
 
 .problems-intro img{
@@ -11,8 +15,8 @@
 }
 
 .title-header{
+    margin-top: 5%;
     margin-left: 5%;
-    margin-bottom: 16px;
 }
 
 .title-intro {
@@ -184,21 +188,34 @@
 
 
     .text-problems {
-        font-size: 10px;
+        font-size: 2.08vw;
     }
 
     .title-problems {
-        font-size: 20px;
+        font-size: 4.17vw;
+    }
+
+    .title-intro {
+        text-align: center;
     }
 
     .title-header {
         font-size: 28px;
     }
 
+    .climate-container, .language-container {
+        margin-top: 0;
+    }
+
+    .language-container {
+        margin-bottom: 92px;
+    }
+
     .climate-container {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 0;
     }
 
     .problems-box-1_1 , .problems-box-2_2 {
@@ -307,6 +324,7 @@
 
     .fpic-container-2 {
         flex-direction: column;
+        margin-bottom: 12px;
     }
 
     .mountains {
