@@ -122,7 +122,7 @@ a {
         align-self: center;
         align-items: center;
         justify-content: flex-end;
-        width: 30px;
+        width: 7vw;
         height: 18px;
         margin-right: 35px;
         cursor: pointer;
@@ -130,7 +130,7 @@ a {
 
     .burger span {
         height: 1.3px;
-        width: 27px;
+        width: 7vw;
         background-color: black;
     }
 
@@ -138,7 +138,7 @@ a {
         content: '';
         position: absolute;
         height: 1.3px;
-        width: 27px;
+        width: 7vw;
         background-color: black;
     }
 

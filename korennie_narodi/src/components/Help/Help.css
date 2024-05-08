@@ -81,7 +81,7 @@
 
 .text-forum {
     font-size: 1.67vw;
-    margin: 42% 50% 2.08% 2.92%;
+    margin: 40% 50% 2.08% 2.92%;
     max-width: 48.23%;
     height: auto;
 }
@@ -299,8 +299,8 @@
 
     .text-forum {
         font-size: 2.2vw;
-        margin: 52% 34% 4% 5%;
-        max-width: 58%;
+        margin: 45% 34% 4% 5%;
+        max-width: 50%;
     }
 
     .help-sec3 {
