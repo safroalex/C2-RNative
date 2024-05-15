@@ -67,33 +67,33 @@ a:hover {
 
 
     header {
-        height: 50px;
+        height: auto;
     }
 
     .logo-container img {
-        width: 43.75px;
+        width: 13vw;
     }
 
     .logo-container {
-        margin-top: 3.5px;
-        margin-left: 20px;
+        margin-top: 0.83%;
+        margin-left: 5%;
+        gap: 10vw;
     }
     
 
     /* очень важная настройка ниже не трогать */
 
     .container {
-        column-gap: 227px;
         display: flex;
         align-items: baseline;
         
     }
 
     .ru {
-        font-size: 8px;
+        font-size: 2vw;
         letter-spacing: 0.1em;
         font-weight: 500;
-        margin-left: -0.1em;
+        margin-left: -0.6em;
     }
 
     .links-outer {
@@ -298,9 +298,9 @@ a:hover {
     .footer-img {
         display: block;
         /* border: yellow solid; */
-        margin-right: 0%;
         width: 300px;
         margin: 0 auto;
+        padding-left: 0;
     }
 
     .footer-img img {

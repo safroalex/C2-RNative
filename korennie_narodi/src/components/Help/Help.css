@@ -1,0 +1,344 @@
+/*from deskop*/
+
+.help-sec1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5.21%;
+}
+
+.help-box {
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: rgb(247, 244, 238);
+    color: black;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    height: auto;
+}
+
+.border-none {
+    border-left: none;
+}
+
+.border-right-none {
+    border-right: none;
+}
+
+.image-help {
+    margin: 11% 2.45% 10% 1.93%;
+    max-width: 75%;
+    height: auto;
+}
+
+.text-help {
+    margin-bottom: 7%;
+    font-size: 1.67vw;
+    max-width: 75%;
+    height: auto;
+}
+
+.href-text {
+    font-size: 1.67vw;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.line-div img {
+    max-width: 100%;
+}
+
+.line-bottom {
+    border-bottom: 2px solid black;
+    padding-bottom: 2.03%;
+}
+
+.title-help {
+    /* border: black solid; */
+    width: 50%;
+    max-width: 41.67%;
+    margin: 3.59% auto auto 4%;
+    line-height: 116.7%;
+    font-size: 2.29vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.help-sec2 {
+    display: flex;
+    margin-top: 7.92%;
+    background-origin: content-box;
+    background: #BCCAC4 url("../../images/Rectangle 4934.png") right center no-repeat;
+    background-size: 87.40%;
+    height: 62.14%;
+    border-radius: 1.04%;
+}
+
+.text-forum {
+    font-size: 1.67vw;
+    margin: 40% 50% 2.08% 2.92%;
+    max-width: 48.23%;
+    height: auto;
+}
+
+.help-sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 7.2%;
+    margin-bottom: 7.2%;
+    gap: 7.5%;
+}
+
+.help-box-2 {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4.5%;
+}
+
+.reverse-elements {
+    flex-direction: row-reverse;
+    padding-top: 6%;
+}
+
+.text-size-1 {
+    max-width: 36.46%;
+    height: 11.67%;
+    font-size: 1.67vw;
+    border-left: 2px solid black;
+    padding-left: 2.6%;
+}
+
+.text-size-2 {
+    max-width: 36.46%;
+    height: 17.5%;
+    font-size: 1.67vw;
+    border-right: 2px solid black;
+    padding-right: 3.31%;
+}
+
+.text-size-3 {
+    max-width: 36.46%;
+    height: 10%;
+    font-size: 1.67vw;
+    border-left: 2px solid black;
+    padding-left: 2.6%;
+}
+
+.image-help-2 {
+    max-width: 32.29%;
+    height: auto;
+}
+
+/*@media (max-width: 1440px) {*/
+/*    .help-sec1 {*/
+/*        margin-top: 96px;*/
+/*    }*/
+
+/*    .image-help {*/
+/*        margin: 62px 30px 51px 33px;*/
+/*        max-width: 410px;*/
+/*        height: auto;*/
+/*    }*/
+
+/*    .href-text {*/
+/*        font-size: 24px;*/
+/*        text-transform: uppercase;*/
+/*        text-decoration: underline;*/
+/*        font-weight: 500;*/
+/*    }*/
+
+/*    .text-help {*/
+/*        margin-bottom: 37px;*/
+/*        font-size: 24px;*/
+/*        max-width: 410px;*/
+/*        height: auto;*/
+/*    }*/
+
+/*    .help-sec2 {*/
+/*        display: flex;*/
+/*        margin-top: 122px;*/
+/*        background: #BCCAC4 url("../../images/Rectangle 4932.png") right center no-repeat;*/
+/*    }*/
+
+/*    .image-forest {*/
+/*        max-width: 1257px;*/
+/*        height: auto;*/
+/*    }*/
+
+/*    .text-forum {*/
+/*        font-size: 24px;*/
+/*        margin: 572px 716px 42px 30px;*/
+/*        flex-wrap: wrap;*/
+/*        max-width: 694px;*/
+/*        height: auto;*/
+/*    }*/
+
+/*    .help-sec3 {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        margin-top: 140px;*/
+/*        margin-bottom: 150px;*/
+/*        gap: 108px;*/
+/*    }*/
+
+/*    .help-box-2 {*/
+/*        display: flex;*/
+/*        gap: 57px;*/
+/*        flex: 1;*/
+/*        flex-wrap: wrap;*/
+/*        flex-direction: row;*/
+/*        align-items: center;*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*    .reverse-elements {*/
+/*        flex-direction: row-reverse;*/
+/*    }*/
+
+/*    .box-padding {*/
+/*        padding-top: 82px;*/
+/*    }*/
+
+/*    .text-size-1 {*/
+/*        max-width: 568px;*/
+/*        height: 168px;*/
+/*        font-size: 24px;*/
+/*        border-left: 2px solid black;*/
+/*        padding-left: 50px;*/
+/*    }*/
+
+/*    .text-size-2 {*/
+/*        max-width: 520px;*/
+/*        height: 290px;*/
+/*        font-size: 24px;*/
+/*        border-right: 2px solid black;*/
+/*        padding-right: 50px;*/
+/*        margin-left: -40px;*/
+/*    }*/
+
+/*    .text-size-3 {*/
+/*        max-width: 568px;*/
+/*        height: 290px;*/
+/*        font-size: 24px;*/
+/*        border-left: 2px solid black;*/
+/*        padding-left: 50px;*/
+/*    }*/
+
+/*    .image-help-2 {*/
+/*        max-width: 465px;*/
+/*        height: auto;*/
+/*        margin-top: -30px;*/
+/*    }*/
+
+/*}*/
+
+@media (max-width: 480px) {
+    .href-text {
+        font-size: 2.08vw;
+    }
+
+    .line-div img {
+        margin: 0 auto 0 auto;
+    }
+
+    .title-help {
+        font-size: 5.83vw;
+        max-width: 80%;
+        width: 70%;
+        height: 13.75%;
+        margin: 12.71% auto 4% 4%;
+    }
+
+    .help-sec1 {
+        margin: 9.38% 6.67%;
+        width: auto;
+    }
+
+    .border-none {
+        border-left: 2px solid black;
+    }
+
+    .border-top-none {
+        border-top: none;
+    }
+
+    .border-right-none {
+        border-top: none;
+        border-right: 2px solid black;
+    }
+
+    .image-help {
+        margin: 30px 21px 26px 20px;
+        width: 294px;
+        height: 184px;
+    }
+
+    .text-help {
+        margin-bottom: 49px;
+        font-size: 10px;
+        width: 295px;
+        height: 72px;
+    }
+
+    .help-sec2 {
+        margin-top: 45px;
+        background-size: 100%;
+        background: #BCCAC4 url("../../images/Rectangle 4935.png") right center no-repeat;
+        border-radius: 5%;
+    }
+
+    .text-forum {
+        font-size: 2.2vw;
+        margin: 45% 34% 4% 5%;
+        max-width: 50%;
+    }
+
+    .help-sec3 {
+        margin-top: 18.75%;
+        margin-bottom: 15.63%;
+        margin-left: 17%;
+        gap: 14%;
+    }
+
+    .help-box-2 {
+        flex: 1;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 30px
+    }
+
+    .text-size-1 {
+        max-width: 80%;
+        height: 12.50%;
+        font-size: 2.08vw;
+    }
+
+    .text-size-2 {
+        max-width: 80%;
+        height: 17.50%;
+        font-size: 2.08vw;
+        margin-left: 0;
+    }
+
+    .text-size-3 {
+        max-width: 80%;
+        height: 20%;
+        font-size: 2.08vw;
+    }
+
+    .image-help-2 {
+        max-width: 80%;
+        height: auto;
+    }
+}
