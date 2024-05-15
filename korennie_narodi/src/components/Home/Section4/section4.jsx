@@ -3,12 +3,12 @@ import './section4.css';
 import quotes_1 from './../../../images/quotes_1.svg';
 import quotes_2 from './../../../images/quotes_2.svg';
 import line from './../../../images/line.jpg';
-import { useTranslation } from 'react-i18next'; 
+import { useTranslation } from 'react-i18next';
 
 const Section4 = () => {
-    const { t } = useTranslation(); 
+    const { t } = useTranslation();
 
-    return (  
+    return (
         <div className='content4'>
             <div className='unifying4'>
                 <div className='quotation'>
@@ -52,5 +52,5 @@ const Section4 = () => {
         </div>
     );
 }
- 
+
 export default Section4;

@@ -234,7 +234,7 @@ a:hover {
 
     .footer-box {
         /* height: 393px; */
-        padding-top: 16px;
+        padding-top: 3.33vw;
         height: auto;
         display: flex;
         background-color: rgb(225,223,218);
@@ -244,7 +244,7 @@ a:hover {
         margin: 0 auto;
         flex-direction: column-reverse;
         justify-content: space-between;
-        column-gap: 20px;
+        column-gap: 4.17vw;
         /* border: red solid; */
     }
     
@@ -258,17 +258,17 @@ a:hover {
     }
 
     .narodi-i-priroda {
-        margin-bottom: 45px;
+        margin-bottom: 9.38vw;
     }
-    
-    
+
     .text-box-footer {
         display: inline;
         position: absolute;
-        top: 52px;
-        left: 20px;
+        max-width: 30vw;
+        top: 10.83vw;
+        left: 4.17vw;
         color: white;
-        font-size: 12px;
+        font-size: 2.50vw;
         text-transform: uppercase;
         font-family: 'Roboto';
         font-weight: 700;
@@ -278,40 +278,40 @@ a:hover {
     
     .text-box-footer a {
         color: white;
-        font-size: 10px;
+        font-size: 2.08vw;
         font-weight: 400;
     }
     
     .text-box-footer p {
-        margin-bottom: 7px;
+        margin-bottom: 1.46vw;
         line-height: 1.2em;
         color: white;
-        width: 97px;
-        margin-bottom: 15px;
+        width: 20.21vw;
+        margin-bottom: 3.13vw;
     }
     
     .footer-text {
         display: inline-block;
-        width: 540px;
+        width: 112.50vw;
     }
     
     .footer-img {
         display: block;
         /* border: yellow solid; */
-        width: 300px;
+        width: 62.50vw;
         margin: 0 auto;
         padding-left: 0;
     }
 
-    .footer-img img {
-        width: 296px;
-        height: 185.97px;
+    .img-footer {
+        max-width: 61.67vw;
+        max-height: 37.29vw;
     }
     
     .footer-text {
         font-family: 'Roboto';
         font-weight: 400;
-        font-size: 14px;
+        font-size: 2.92vw;
         line-height: 116.7%;
         letter-spacing: 15%;
         display: flex;
@@ -321,47 +321,47 @@ a:hover {
     }
     
     .footer-text p {
-        font-size: 14px;
+        font-size: 2.92vw;
     }
     
     .keeper {
-        width: 296px;
+        max-width: 61.67vw;
         height: auto;
         word-wrap: break-word;
         padding-left: 0%;
-        padding-top: 12px;
+        padding-top: 2.50vw;
         /* border: black solid; */
-        margin-bottom: 18px;
+        margin-bottom: 3.75vw;
     }
     
     .keeper :first-child , .keeper :nth-child(2), .review , .keeper :last-child {
         font-family: 'Roboto';
         font-weight: 400;
-        font-size: 10px;
+        font-size: 2.2vw;
         line-height: 116.7%;
         letter-spacing: 15%;
         margin: 0% auto;
     }
 
     .review {
-        margin-top: 10px;
-        font-size: 8px;
+        margin-top: 2.08vw;
+        font-size: 1.67vw;
     }
     
     .keeper :nth-child(2), .review, .keeper :last-child {
-        font-size: 10px;
+        font-size: 2.08vw;
         margin-bottom: 0%;
         /* border: green solid 2px; */
     }
 
     .keeper :nth-child(2) {
-        margin-top: 10px;
-        font-size: 6px;
+        margin-top: 2.08vw;
+        font-size: 1.4vw;
     }
     
     .keeper :nth-child(4) {
-        margin-top: 24px;
-        font-size: 6px;
+        margin-top: 5vw;
+        font-size: 1.4vw;
     }
 
 

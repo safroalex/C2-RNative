@@ -73,15 +73,15 @@ section .mobile-btn {
     section .help-box {
         height: 85.28px;
     }
-    
+
     section .help-outer-box {
         width: 100vw;
     }
-    
+
     section .help-inner-box {
         position: static;
     }
-    
+
     section .help-img-box {
         display: none;
     }
@@ -116,7 +116,7 @@ section .mobile-btn {
         column-gap: 20px;
         justify-content: center;
     }
-    
+
     .help-outer-box {
         display: flex;
         justify-content: center;
@@ -125,7 +125,7 @@ section .mobile-btn {
         position: relative;
         width: auto;
     }
-    
+
     .help-inner-box {
         width: auto;
         position: absolute;
@@ -135,27 +135,27 @@ section .mobile-btn {
         letter-spacing: 15%;
         line-height: 116.7%;
     }
-    
+
     .help-inner-box :first-child {
         display: none;
     }
-    
+
     .help-text {
-        display: none;  
+        display: none;
     }
-    
+
     .help-img-box {
         display: flex;
         justify-content: space-between;
         width: 550px;
         position: relative;
     }
-    
+
     .yakut-box {
         position: absolute;
         bottom: 0;
     }
-    
+
     .help-inner-box button {
         border: 1px solid white;
         padding: 19px 43px;
@@ -169,5 +169,5 @@ section .mobile-btn {
         color: white;
         letter-spacing: 0.1em;
     }
-        
+
 }

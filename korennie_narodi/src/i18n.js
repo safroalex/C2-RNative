@@ -107,33 +107,49 @@ const resources = {
         quiz_question4_option3: 'SAAMI',
         quiz_question4_option4: 'CHUKCHIS',
 
-        //помощь
-          problems: "problems of indigenous peoples",
-          russian_peoples: "peoples of Russia",
-          economic_inequality: "economic inequality and demographic problems",
-          climatic_threat: "climatic and environmental threats",
-          climatic_threat_text: "Richer communities with more stable institutional structures suffer less from global issues such as warming and plastic pollution. However, the most vulnerable groups within these communities are often indigenous peoples who are committed to traditional ways of life and face difficulties due to changes in the environmental landscape. For example, permafrost melting in Northern Russia causes methane emissions and makes it impossible for indigenous peoples to engage in economic activities, hunting, and fishing.",
-          language_threat: "threat to languages",
-          language_threat_text: "The demographic problem has serious consequences for the cultures and languages of indigenous minorities. In Russia, 15 languages of small peoples have disappeared over the past 100 years, 10 of them in the last 35 years. Currently, about 10% of the one and a half hundred languages of the peoples of Russia are on the verge of extinction, and more than 60% are approaching this dangerous line. This problem is widespread not only in Russia but all over the world. Teaching indigenous minority languages in schools is also a challenging task, especially due to urbanization and the dominant role of the Russian language. Speaking one's language is an important part of a people's identity, so the extinction of languages leads to a loss of cultural values.",
-          principle_free: "principle of free,",
-          preliminary_and_conscious: "prior and informed",
-          agreement: "consent (FPIC)",
-          important_step: "An important step towards respecting the rights of indigenous peoples was the principle of free, prior and informed consent (FPIC). It was adopted as part of the United Nations Declaration on the Rights of Indigenous Peoples in 2007.",
-          fpic_suppose: "The FPIC principle assumes that an organization or company must obtain the consent of the indigenous population before starting a project on their territory without administrative or political pressure. The residents must be informed about the possible consequences, and the consent procedure must comply with the norms of the indigenous people's decisions.",
-          un_summary: "The UN report notes that one of the first Russian companies to cooperate with the indigenous population in implementing the Sakhalin-2 project in northern Sakhalin was Sakhalin Energy LLC. A Development Assistance Plan for the indigenous small-numbered peoples of northern Sakhalin was developed.",
-          fpic_section_2: "The practice of FPIC principles in Russia remains irregular. The optimistic scenario of the Sakhalin plan can rather be considered an exception that confirms the general rule: even now, in the 21st century, after numerous UN reports and conferences, the rights of indigenous peoples in Russia are violated.",
-          fpic_cases: "Here are just a few cases where the FPIC principles were not followed:",
-          damn_gold: "Cursed Gold of the Shors.",
-          damn_gold_section_1: "The Shors, an indigenous people of southern Siberia, live in the Republic of Khakassia and the Kemerovo region; their population is about 14,000 people, but since the mid-20th century, their number has decreased by 14% due to ecosystem destruction and gold mining. In the territory of seven regions of Russia, 279 licensed gold mining sites have been identified, posing a potential threat to the environment and humans.",
-          damn_gold_section_2: "The industrial development of the ancestral territories of the Shors, including gold and coal mining, threatens the existence of this people, leading to the disappearance of their culture and language, forcing them to leave their lands and damaging the region's unique biodiversity. The principles of free, prior, and informed consent are not followed due to the informality of many mining sites and the lack of companies willing to take responsibility for the violations of Shors' rights and environmental pollution.",
-          damn_gold_section_3: "Thus, adherence to the FPIC principle is an integral part of the rights of indigenous peoples worldwide. FPIC is necessary not only for preserving the unique cultures, languages, and methods of natural resource use of indigenous peoples but also as a practical step in establishing relationships with those groups that have been discriminated against for centuries.",
-          dead_rivers: "Dead Rivers of the Mansi people.",
-          dead_rivers_text: "Dead rivers such as Taltiya, Ivdel, Shegultan, and Olkhovka of the Mansi people in the Khanty-Mansi Autonomous Okrug and neighboring regions have become unsuitable for natural resource use due to industrial pollution, which hinders the traditional activities of the Mansi, such as fishing, hunting, and reindeer herding.",
-          summary: "Conclusion",
-          summary_text: "Despite the fact that some companies in Russia comply with FPIC requirements, the decision to adhere to or disregard this principle in most cases remains with the organizations themselves. Considering all the time and monetary costs, as well as the right of indigenous residents to refuse projects on their land, private companies rarely find sufficient grounds for negotiating with indigenous peoples. As a result, arbitrariness occurs on the historical territories of indigenous peoples, resource exploitation, the destruction of unique ecological landscapes, and violations of indigenous peoples' rights to self-determination."
+        //проблемы
+        problems: "problems of indigenous peoples",
+        russian_peoples: "peoples of Russia",
+        economic_inequality: "economic inequality and demographic problems",
+        climatic_threat: "climatic and environmental threats",
+        climatic_threat_text: "Richer communities with more stable institutional structures suffer less from global issues such as warming and plastic pollution. However, the most vulnerable groups within these communities are often indigenous peoples who are committed to traditional ways of life and face difficulties due to changes in the environmental landscape. For example, permafrost melting in Northern Russia causes methane emissions and makes it impossible for indigenous peoples to engage in economic activities, hunting, and fishing.",
+        language_threat: "threat to languages",
+        language_threat_text: "The demographic problem has serious consequences for the cultures and languages of indigenous minorities. In Russia, 15 languages of small peoples have disappeared over the past 100 years, 10 of them in the last 35 years. Currently, about 10% of the one and a half hundred languages of the peoples of Russia are on the verge of extinction, and more than 60% are approaching this dangerous line. This problem is widespread not only in Russia but all over the world. Teaching indigenous minority languages in schools is also a challenging task, especially due to urbanization and the dominant role of the Russian language. Speaking one's language is an important part of a people's identity, so the extinction of languages leads to a loss of cultural values.",
+        principle_free: "principle of free,",
+        preliminary_and_conscious: "prior and informed",
+        agreement: "consent (FPIC)",
+        important_step: "An important step towards respecting the rights of indigenous peoples was the principle of free, prior and informed consent (FPIC). It was adopted as part of the United Nations Declaration on the Rights of Indigenous Peoples in 2007.",
+        fpic_suppose: "The FPIC principle assumes that an organization or company must obtain the consent of the indigenous population before starting a project on their territory without administrative or political pressure. The residents must be informed about the possible consequences, and the consent procedure must comply with the norms of the indigenous people's decisions.",
+        un_summary: "The UN report notes that one of the first Russian companies to cooperate with the indigenous population in implementing the Sakhalin-2 project in northern Sakhalin was Sakhalin Energy LLC. A Development Assistance Plan for the indigenous small-numbered peoples of northern Sakhalin was developed.",
+        fpic_section_2: "The practice of FPIC principles in Russia remains irregular. The optimistic scenario of the Sakhalin plan can rather be considered an exception that confirms the general rule: even now, in the 21st century, after numerous UN reports and conferences, the rights of indigenous peoples in Russia are violated.",
+        fpic_cases: "Here are just a few cases where the FPIC principles were not followed:",
+        damn_gold: "Cursed Gold of the Shors.",
+        damn_gold_section_1: "The Shors, an indigenous people of southern Siberia, live in the Republic of Khakassia and the Kemerovo region; their population is about 14,000 people, but since the mid-20th century, their number has decreased by 14% due to ecosystem destruction and gold mining. In the territory of seven regions of Russia, 279 licensed gold mining sites have been identified, posing a potential threat to the environment and humans.",
+        damn_gold_section_2: "The industrial development of the ancestral territories of the Shors, including gold and coal mining, threatens the existence of this people, leading to the disappearance of their culture and language, forcing them to leave their lands and damaging the region's unique biodiversity. The principles of free, prior, and informed consent are not followed due to the informality of many mining sites and the lack of companies willing to take responsibility for the violations of Shors' rights and environmental pollution.",
+        damn_gold_section_3: "Thus, adherence to the FPIC principle is an integral part of the rights of indigenous peoples worldwide. FPIC is necessary not only for preserving the unique cultures, languages, and methods of natural resource use of indigenous peoples but also as a practical step in establishing relationships with those groups that have been discriminated against for centuries.",
+        dead_rivers: "Dead Rivers of the Mansi people.",
+        dead_rivers_text: "Dead rivers such as Taltiya, Ivdel, Shegultan, and Olkhovka of the Mansi people in the Khanty-Mansi Autonomous Okrug and neighboring regions have become unsuitable for natural resource use due to industrial pollution, which hinders the traditional activities of the Mansi, such as fishing, hunting, and reindeer herding.",
+        summary: "Conclusion",
+        summary_text: "Despite the fact that some companies in Russia comply with FPIC requirements, the decision to adhere to or disregard this principle in most cases remains with the organizations themselves. Considering all the time and monetary costs, as well as the right of indigenous residents to refuse projects on their land, private companies rarely find sufficient grounds for negotiating with indigenous peoples. As a result, arbitrariness occurs on the historical territories of indigenous peoples, resource exploitation, the destruction of unique ecological landscapes, and violations of indigenous peoples' rights to self-determination.",
       
+      //помощь
       
-      
+      title_help_page: 'help for indigenous peoples',
+      link_len_obl: 'Indigenous Peoples Center of Leningrad Region',
+      len_obl: ' a cultural and educational center created to preserve and develop the culture of the indigenous peoples of the Leningrad Region (Izhorians, Votes, Ingrian Finns, Vepsians, and Tikhvin Karelians).',
+      link_peoples_center_pribaikal: 'Indigenous Peoples Culture Center of the Baikal Region',
+      peoples_center_pribaikal: ' a center created to revive, preserve, and develop the traditional culture of the indigenous peoples of the Baikal region, engaging local residents, tourists, and visitors of the Irkutsk Region.',
+      link_peoples_severa: 'Indigenous Minorities of the North',
+      peoples_severa: ' a group dedicated to cultural events and activities of the Northern peoples.',
+      forum_title: 'Forum of the Youth of Indigenous Minorities of the North, Siberia, and the Far East "Russian North"',
+      forum_info: 'The forum is held with the aim of creating an interethnic communication platform for the interaction of youth and involving active young people in addressing tasks that meet the modern demands of the state and society.',
+      link_history_peoples_dv: 'History of the Indigenous Peoples of the Far East',
+      history_peoples_dv: 'A group dedicated to the history, religion, everyday life, and culture of the indigenous peoples of the Far East.',
+      link_mammoth_effect: 'Mammoth Effect Foundation for Conservation and Support of Natural and Cultural Heritage',
+      mammoth_effect: 'The foundation unites scientists, researchers, travelers, and representatives of the creative sphere to work towards preserving the unique heritage of our planet.',
+      link_arctic_volunteers: 'Arctic Volunteers Project',
+      arctic_volunteers: 'The project is aimed at assisting in the documentary support of residents of the Yamalo-Nenets Autonomous Okrug from among the indigenous minorities of the north as part of social programs provided by the legislation of the Yamalo-Nenets Autonomous Okrug for this category of citizens.'
+
     }
   },
   ru: {
@@ -232,7 +248,7 @@ const resources = {
         quiz_question4_option3: 'СААМИ',
         quiz_question4_option4: 'ЧУКЧИ',
 
-        //help
+        //problems
         problems: 'проблемы коренных',
         russian_peoples: 'народов россии',
         economic_inequality: 'экономическое неравенство и демографические проблемы',
@@ -255,7 +271,24 @@ const resources = {
         dead_rivers: 'Мертвые реки надода Манси.',
         dead_rivers_text: 'Мертвые реки такие как (Тальтия, Ивделя, Шегультан и Ольховка) народа манси в Ханты-Мансийском автономном округе и соседних регионах стали непригодны для природопользования из-за загрязнения промышленными выбросами, что препятствует традиционным видам занятий манси, таким как рыболовство, охота и оленеводство.',
         summary: 'Вывод',
-        summary_text: 'Несмотря на то, что некоторые компании в России соблюдают требования СПОС, решение о выполнении или невыполнении этого принципа в большинстве случаев остается за самими организациями. При этом, учитывая все временные и денежные затраты, а также право коренных жителей отказаться от проектов на своей земле, частные компании редко находят достаточные основания для ведения переговоров с коренными народами. В результате этого происходит произвол на исторических территориях коренного населения, эксплуатация ресурсов, разрушение уникальных экологических ландшафтов и нарушение прав коренных народов на самоопределение.'
+        summary_text: 'Несмотря на то, что некоторые компании в России соблюдают требования СПОС, решение о выполнении или невыполнении этого принципа в большинстве случаев остается за самими организациями. При этом, учитывая все временные и денежные затраты, а также право коренных жителей отказаться от проектов на своей земле, частные компании редко находят достаточные основания для ведения переговоров с коренными народами. В результате этого происходит произвол на исторических территориях коренного населения, эксплуатация ресурсов, разрушение уникальных экологических ландшафтов и нарушение прав коренных народов на самоопределение.',
+
+        //help
+        title_help_page: 'помощь коренным народам',
+        link_len_obl: 'Центр коренных народов Ленинградской области',
+        len_obl: ' культурно-просветительский центр, созданный с целью сохранения и развития культуры коренных народов Ленинградской области (ижоры, води, ингерманландских финнов, вепсов и тихвинских карел).',
+        link_peoples_center_pribaikal: 'Центр культуры коренных народов Прибайкалья',
+        peoples_center_pribaikal: ' центр, созданный с целью возрождения, сохранения и развития традиционной культуры коренных народов Прибайкалья, приобщение к ней жителей, туристов и гостей Иркутской области.',
+        link_peoples_severa: 'Коренные малочисленные народы Севера',
+        peoples_severa: ' группа посвящена культурным мероприятиям и событиям народов Севера.',
+        forum_title: 'Форум молодежи коренных малочисленных народов Севера, Сибири и Дальнего Востока «Российский Север»',
+        forum_info: 'Форум проводится с целью создания межнациональной коммуникационной площадки для взаимодействия молодежи и вовлечения активных молодых людей в решение задач, отвечающих современным запросам государства и общества.',
+        link_history_peoples_dv: 'История коренных народов Дальнего Востока',
+        history_peoples_dv: 'Группа посвящена истории, религия, быту, культуре коренных народов Дальнего Востока.',
+        link_mammoth_effect: 'Фонд сохранения и поддержки природного и культурного наследия «Эффект Мамонта»',
+        mammoth_effect: 'Фонд объединяет ученых, исследователей, путешественников и представителей творческой сферы для того, чтобы трудиться над сохранением уникального наследия нашей планеты.',
+        link_arctic_volunteers: 'Волонтерский проект "Добровольцы Арктики"',
+        arctic_volunteers: 'Проект направлен на оказание помощи в документальном сопровождения жителей ЯНАО из числа КМНС (коренных малочисленных народов севера) в рамках социальных программ предусмотренных Законодательством ЯНАО для данной категории граждан.'
     }
   }
 };

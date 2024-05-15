@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 const Section5 = () => {
     const { t } = useTranslation();
 
-    return (  
+    return (
         <section>
             <div className='help-box'>
                 <div className='help-outer-box'>
@@ -26,5 +26,5 @@ const Section5 = () => {
         </section>
     );
 }
- 
+
 export default Section5;

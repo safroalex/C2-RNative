@@ -23,7 +23,7 @@ const Footer = () => {
                 <div className='footer-img'>
                     <div className='narodi-i-priroda'>
                         <div>
-                            <img src={landscape1} alt="" />
+                            <img className="img-footer" src={landscape1} alt="" />
                         </div>
                         <div className='text-box-footer'>
                             <p>{t('footer_nations_nature')}</p>
@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
                     <div className='narodi-i-interview'>
                         <div>
-                            <img src={landscape2} alt="" />
+                            <img className="img-footer" src={landscape2} alt="" />
                         </div>
                         <div className='text-box-footer'>
                             <p>{t('footer_nations_interview')}</p>
