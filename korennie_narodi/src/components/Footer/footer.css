@@ -4,34 +4,37 @@
     display: flex;
     background-color: rgb(225,223,218);
     position: relative;
+    justify-content: space-evenly;
     z-index: -10;
     bottom: 0;
     margin: 0 auto;
-    justify-content: space-between;
-    padding-top: 20px;
-
-    flex-wrap: wrap-reverse;
-    padding-bottom: 20px;
+    padding-top: 1.04vw;
+    padding-bottom: 1.04vw;
     /* border: red solid; */
 }
 
 .narodi-i-priroda, .narodi-i-interview {
     position: relative;
     z-index: -1;
-    width: 413px;
-    height: 267px;
+    width: 29.17vw;
+
     padding-bottom: 20px;
     /* border: blue solid; */
 }
 
+.img-footer {
+    max-width: 29.17vw;
+    max-height: 15.31vw;
+}
 
 .text-box-footer {
     display: inline;
     position: absolute;
-    top: 52px;
-    left: 20px;
+    max-width: 10vw;
+    top: 2.71vw;
+    left: 1.04vw;
     color: white;
-    font-size: 24px;
+    font-size: 1.25vw;
     text-transform: uppercase;
     font-family: 'Roboto';
     font-weight: 700;
@@ -41,38 +44,37 @@
 
 .text-box-footer a {
     color: white;
-    font-size: 16px;
+    font-size: 0.83vw;
     font-weight: 400;
 }
 
 .text-box-footer p {
-    margin-bottom: 7px;
+    margin-bottom: 0.36vw;
     line-height: 2em;
     color: white;
 }
 
 .footer-text {
     display: inline-block;
-    width: 540px;
+    width: 28.13vw;
     letter-spacing: 0.1em;
 }
 
 .footer-img {
     display: flex;
-    padding-left: 40px;
-    flex-wrap: wrap;
-    column-gap: 80px;
-    row-gap: 20px;
+    padding-left: 2.08vw;
+    padding-top: 1.15vw;
+    column-gap: 2vw;
     justify-content: space-between;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 2.08vw;
     /* border: yellow solid; */
 }
 
 .footer-text {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.73vw;
     line-height: 116.7%;
     letter-spacing: 15%;
     display: flex;
@@ -82,32 +84,31 @@
 }
 
 .footer-text p {
-    font-size: 14px;
+    font-size: 0.73vw;
 }
 
 .keeper {
-    width: 496px;
+    max-width: 25.83vw;
     /* height: 337px; */
-    height: 281px;
     word-wrap: break-word;
-    padding-left: 20px;
-    padding-top: 22px;
+    padding-left: 1.04vw;
+    padding-top: 0.5vw;
     /* border: black solid; */
 }
 
 .keeper :first-child , .keeper :nth-child(2), .review , .keeper :last-child {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 0.94vw;
     line-height: 116.7%;
     letter-spacing: 15%;
 }
 
 .keeper :nth-child(2), .review, .keeper :last-child {
-    font-size: 12px;
-    margin-bottom: 42px;
+    font-size: 0.63vw;
+    margin-bottom: 2.19vw;
 }
 
 .keeper :first-child {
-    margin-bottom: 42px;
+    margin-bottom: 2.19vw;
 }
