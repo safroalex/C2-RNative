@@ -22,9 +22,6 @@ const Footer = () => {
                 </div>
                 <div className='footer-img'>
                     <div className='narodi-i-priroda'>
-                        <div>
-                            <img className="img-footer" src={landscape1} alt="" />
-                        </div>
                         <div className='text-box-footer'>
                             <p>{t('footer_nations_nature')}</p>
                             <div>
@@ -33,9 +30,6 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='narodi-i-interview'>
-                        <div>
-                            <img className="img-footer" src={landscape2} alt="" />
-                        </div>
                         <div className='text-box-footer'>
                             <p>{t('footer_nations_interview')}</p>
                             <div>
