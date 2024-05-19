@@ -5,34 +5,33 @@
     background-color: rgb(225,223,218);
     position: relative;
     justify-content: space-evenly;
-    z-index: -10;
     bottom: 0;
     margin: 0 auto;
-    padding-top: 1.04vw;
-    padding-bottom: 1.04vw;
+    padding-top: 1.93vw;
+    padding-bottom: 3.23vw;
     /* border: red solid; */
 }
 
-.narodi-i-priroda, .narodi-i-interview {
-    position: relative;
-    z-index: -1;
-    width: 29.17vw;
-
-    padding-bottom: 20px;
+.narodi-i-priroda {
+    background-image: url("./../../images/landscape1.jpg");
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
     /* border: blue solid; */
 }
 
-.img-footer {
-    max-width: 29.17vw;
-    max-height: 15.31vw;
+.narodi-i-interview {
+    background-image: url("./../../images/landscape2.jpg");
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    /* border: blue solid; */
 }
 
 .text-box-footer {
-    display: inline;
-    position: absolute;
-    max-width: 10vw;
-    top: 2.71vw;
-    left: 1.04vw;
+    padding: 4.22vw 17.19vw 5.36vw 1.46vw;
+    max-width: 29.17vw;
+    max-height: 15.31vw;
     color: white;
     font-size: 1.25vw;
     text-transform: uppercase;
@@ -44,8 +43,11 @@
 
 .text-box-footer a {
     color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
     font-size: 0.83vw;
-    font-weight: 400;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .text-box-footer p {
@@ -56,7 +58,7 @@
 
 .footer-text {
     display: inline-block;
-    width: 28.13vw;
+    width: 25.78vw;
     letter-spacing: 0.1em;
 }
 
@@ -64,7 +66,7 @@
     display: flex;
     padding-left: 2.08vw;
     padding-top: 1.15vw;
-    column-gap: 2vw;
+    column-gap: 3vw;
     justify-content: space-between;
     align-items: center;
     margin-right: 2.08vw;
@@ -74,7 +76,7 @@
 .footer-text {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 0.73vw;
+    font-size: 0.83vw;
     line-height: 116.7%;
     letter-spacing: 15%;
     display: flex;
@@ -84,7 +86,7 @@
 }
 
 .footer-text p {
-    font-size: 0.73vw;
+    font-size: 0.83vw;
 }
 
 .keeper {
@@ -99,16 +101,17 @@
 .keeper :first-child , .keeper :nth-child(2), .review , .keeper :last-child {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 0.94vw;
+    font-size: 0.9vw;
     line-height: 116.7%;
     letter-spacing: 15%;
 }
 
 .keeper :nth-child(2), .review, .keeper :last-child {
-    font-size: 0.63vw;
+    font-size: 0.83vw;
     margin-bottom: 2.19vw;
 }
 
 .keeper :first-child {
     margin-bottom: 2.19vw;
+    font-size: 1.15vw;
 }
